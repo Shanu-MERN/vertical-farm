@@ -1,8 +1,8 @@
 import "./App.css";
 import { GiFarmer } from "react-icons/gi";
 import masterimg from "./assets/test.png";
-import { FaLeaf } from "react-icons/fa";
-import { GiChestnutLeaf } from "react-icons/gi";
+
+import { TbLeaf } from "react-icons/tb";
 
 function App() {
   return (
@@ -70,7 +70,6 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="icons"></div>
         <div className="step two">
           <div className="step-icon-container">
             <div className="step-icon">2</div>
@@ -92,10 +91,28 @@ function App() {
           </div>
         </div>
       </div>
+
       <div className="consult">
-        <div className="test"></div>
-        <div className="test"></div>
-        <div className="test"></div>
+        <div className="farm-start-container">
+          <div className="farm-start">
+            Farm Start At
+            <div className="farm-start-time">7 AM</div>
+          </div>
+          <div className="info-icon">
+            <TbLeaf className="info-icon-leaf" />
+          </div>
+        </div>
+        <div className="consult-text">
+          We Offer Consulting Services <br /> For Vertical Farming Method
+        </div>
+        <div className="consult-buttons">
+          <div className="button onex">Don't Wait</div>
+          <div className="button twox">Join Us</div>
+          <div className="button threex">Act Now</div>
+        </div>
+        <div className="contact">
+          <div className="button">Contact Team</div>
+        </div>
       </div>
     </div>
   );

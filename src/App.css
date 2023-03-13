@@ -32,6 +32,7 @@
 
 .nav-item {
   width: fit-content;
+  cursor: pointer;
 }
 
 .nav-item-active {
@@ -128,6 +129,7 @@
 .step {
   padding: 1rem;
   display: flex;
+  align-items: center;
   border-radius: 1rem;
   gap: 1rem;
   border: 1px solid var(--bg);
@@ -191,8 +193,76 @@
 }
 
 .consult {
-  background-color: #f6f6f6;
-  height: 150px;
-  width: 100%;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f6f6f6;
+  color: var(--bg);
+  padding: 2rem;
+}
+
+.farm-start-container {
+  display: flex;
+}
+
+.farm-start {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: var(--bg);
+  padding: 1.2rem 2rem;
+  border-radius: 3rem;
+  color: white;
+}
+
+.farm-start-time {
+  color: var(--bg);
+  background-color: #f6f6f6;
+  border-radius: 2rem;
+  padding: 0.3rem 0.6rem;
+}
+
+.info-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 65px;
+  /* aspect-ratio: 1/1; */
+  background-color: var(--ascent-primary);
+  color: black;
+  border: 1px solid var(--bg);
+  font-size: 2.5rem;
+  border-radius: 50%;
+}
+.info-icon-leaf {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.consult-buttons {
+  display: flex;
+}
+
+.consult .button {
+  background-color: var(--ascent-secondary);
+  border-color: var(--bg);
+  white-space: nowrap;
+}
+
+.consult .onex {
+  border-radius: 2rem 0 0 2rem;
+}
+.consult .twox {
+  border-radius: 0;
+}
+.consult .threex {
+  border-radius: 0 2rem 2rem 0;
+}
+
+.contact .button {
+  background-color: var(--ascent-primary);
+}
+
+.consult-text {
+  font-size: 1.5rem;
+  font-weight: 500;
 }
