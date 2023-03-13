@@ -5,7 +5,7 @@
   --ascent-primary: #e0f3c1;
   --ascent-secondary: #f1ff9f;
   --ascent-tertiary: #feecb7;
-
+  --ascent-quaternary: #e7e8fc;
   font-family: "Montserrat", sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -20,6 +20,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+  overflow: overlay;
+  overflow-x: hidden;
 }
 
 * {
