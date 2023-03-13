@@ -66,6 +66,23 @@
   padding: 0.5rem 1.5rem;
 }
 
+.overlap1 {
+  background: url("https://images.meesho.com/images/products/139776826/o9kdd_256.webp");
+  background-size: contain;
+}
+.overlap2 {
+  position: relative;
+  right: 1.9rem;
+  background: url("https://www.ogdmart.com/attachments/shop_images/1596010638/Money_Plant_In_White_Pot.jpg");
+  background-size: contain;
+}
+.overlap3 {
+  position: relative;
+  right: 3.9rem;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvn-0xt6qvSxOLtEcjij2t3miK1IG7Lnd1IhvgwNa-xikhehxOnf44bxSlMLzccP0BAvU&usqp=CAU");
+  background-size: contain;
+}
+
 .master {
   display: flex;
 }
@@ -91,5 +108,27 @@
 .right {
   width: 40%;
   height: 80vh;
-  background-color: #0b1022;
+  /* background-color: #0b1022; */
+}
+
+.master-image {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .master {
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .left {
+    width: 100%;
+    height: 50vh;
+    padding: 3rem 2rem 3rem 2rem;
+  }
+
+  .right {
+    width: 100%;
+    height: 50vh;
+  }
 }

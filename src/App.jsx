@@ -1,5 +1,8 @@
 import "./App.css";
 import { GiFarmer } from "react-icons/gi";
+import masterimg from "./assets/test.png";
+import { FaLeaf } from "react-icons/fa";
+import { GiChestnutLeaf } from "react-icons/gi";
 
 function App() {
   return (
@@ -46,10 +49,13 @@ function App() {
           <div className="button-container">
             <div className="button start">Start Now</div>
             <div className="button how">HOW IT WORKS?</div>
+            <div className="button overlap1"></div>
+            <div className="button overlap2"></div>
+            <div className="button overlap3"></div>
           </div>
         </div>
         <div className="right">
-          {/* <img src="assets/test.png" alt="" /> */}
+          <img src={masterimg} alt="Master art" className="master-image" />
         </div>
       </div>
     </div>
