@@ -4,10 +4,12 @@
   --bg: #101010;
   --ascent-primary: #e0f3c1;
   --ascent-secondary: #f1ff9f;
+  --ascent-tertiary: #feecb7;
 
   font-family: "Montserrat", sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  font-size: 0.9rem;
 
   color-scheme: light dark;
   color: #fff;

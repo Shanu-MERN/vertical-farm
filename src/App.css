@@ -1,5 +1,5 @@
 .nav {
-  position: fixed;
+  position: sticky;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -12,13 +12,14 @@
 }
 
 .logo {
+  font-size: 1.3rem;
   display: flex;
   align-items: center;
   gap: 0.3rem;
 }
 
 .logo-icon {
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: var(--ascent-secondary);
 }
 
@@ -42,13 +43,53 @@
 
 .button {
   cursor: pointer;
-  padding: 0.5rem 1rem;
+  padding: 0.7rem 1.2rem;
   border-radius: 2rem;
-  border: 1px solid #fff;
+  border: 1px solid #ffffff50;
 }
 
 .account {
   background-color: var(--ascent-primary);
   color: var(--bg);
   border-color: var(--bg);
+}
+
+.start {
+  background-color: var(--ascent-secondary);
+  color: var(--bg);
+  border-color: var(--bg);
+  padding: 0.5rem 1.5rem;
+}
+
+.how {
+  border-color: #fff;
+  padding: 0.5rem 1.5rem;
+}
+
+.master {
+  display: flex;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 5rem 3rem 5rem;
+  gap: 3rem;
+  width: 60%;
+  height: 80vh;
+}
+
+.title {
+  font-size: 3rem;
+}
+
+.button-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.right {
+  width: 40%;
+  height: 80vh;
+  background-color: #0b1022;
 }

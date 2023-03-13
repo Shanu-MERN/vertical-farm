@@ -21,6 +21,37 @@ function App() {
           <div className="button account">Account</div>
         </div>
       </div>
+      <div className="master">
+        <div className="left">
+          <div className="title">
+            Fresh, Sustainable, <br />
+            Plant <span style={{ fontWeight: "600" }}>Grow Vertically</span>
+            <br />
+            in{" "}
+            <span
+              style={{
+                fontWeight: "600",
+                backgroundColor: "var(--ascent-secondary)",
+                color: "var(--bg)",
+              }}
+            >
+              Urban Areas
+            </span>
+          </div>
+          <div className="desc">
+            Our vertical farming startup brings sustainable, locally grown
+            produce to urban areas. With our innovative technology, we're
+            revolutionizing the way. we grow and consume fresh food.
+          </div>
+          <div className="button-container">
+            <div className="button start">Start Now</div>
+            <div className="button how">HOW IT WORKS?</div>
+          </div>
+        </div>
+        <div className="right">
+          {/* <img src="assets/test.png" alt="" /> */}
+        </div>
+      </div>
     </div>
   );
 }
