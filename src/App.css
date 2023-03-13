@@ -1,0 +1,54 @@
+.nav {
+  position: fixed;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  top: 0;
+  padding: 2rem;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.logo-icon {
+  font-size: 2rem;
+  color: var(--ascent-secondary);
+}
+
+.nav-content {
+  display: flex;
+  gap: 3vw;
+}
+
+.nav-item {
+  width: fit-content;
+}
+
+.nav-item-active {
+  color: var(--ascent-secondary);
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.button {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  border: 1px solid #fff;
+}
+
+.account {
+  background-color: var(--ascent-primary);
+  color: var(--bg);
+  border-color: var(--bg);
+}
