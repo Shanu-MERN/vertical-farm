@@ -72,21 +72,21 @@
 .overlap1 {
   border: 1px solid var(--bg);
   background: url("https://images.meesho.com/images/products/139776826/o9kdd_256.webp");
-  background-size: contain;
+  background-size: cover;
 }
 .overlap2 {
   border: 1px solid var(--bg);
   position: relative;
   right: 1.9rem;
   background: url("https://www.ogdmart.com/attachments/shop_images/1596010638/Money_Plant_In_White_Pot.jpg");
-  background-size: contain;
+  background-size: cover;
 }
 .overlap3 {
   border: 1px solid var(--bg);
   position: relative;
   right: 3.9rem;
   background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvn-0xt6qvSxOLtEcjij2t3miK1IG7Lnd1IhvgwNa-xikhehxOnf44bxSlMLzccP0BAvU&usqp=CAU");
-  background-size: contain;
+  background-size: cover;
 }
 
 .master {
@@ -265,4 +265,9 @@
 .consult-text {
   font-size: 1.5rem;
   font-weight: 500;
+}
+
+::selection {
+  background-color:var(--ascent-secondary);
+  color: var(--bg);
 }

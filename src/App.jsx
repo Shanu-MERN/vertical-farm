@@ -1,8 +1,8 @@
 import "./App.css";
 import { GiFarmer } from "react-icons/gi";
-import masterimg from "./assets/test.png";
-
 import { TbLeaf } from "react-icons/tb";
+import masterimg from "./assets/test.png";
+import test1 from "./assets/test1.svg";
 
 function App() {
   return (
@@ -27,7 +27,8 @@ function App() {
       <div className="master">
         <div className="left">
           <div className="title">
-            Fresh, Sustainable, <br />
+            Fresh, Sustainable, <img src={test1} style={{ height: "2.3rem" }} />
+            <br />
             Plant <span style={{ fontWeight: "600" }}>Grow Vertically</span>
             <br />
             in{" "}
@@ -91,7 +92,6 @@ function App() {
           </div>
         </div>
       </div>
-
       <div className="consult">
         <div className="farm-start-container">
           <div className="farm-start">
