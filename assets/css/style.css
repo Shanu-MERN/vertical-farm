@@ -1,3 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --bg: #101010;
+  --ascent-primary: #e0f3c1;
+  --ascent-secondary: #f1ff9f;
+  --ascent-tertiary: #feecb7;
+  --ascent-quaternary: #e7e8fc;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 0.9rem;
+
+  color-scheme: light dark;
+  color: #fff;
+  background-color: #101010;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  overflow: overlay;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
 .nav {
   z-index: 100;
   background-color: var(--bg);
@@ -72,21 +106,21 @@
 .overlap1 {
   border: 1px solid var(--bg);
   background: url("https://images.meesho.com/images/products/139776826/o9kdd_256.webp");
-  background-size: cover;
+  background-size: contain;
 }
 .overlap2 {
   border: 1px solid var(--bg);
   position: relative;
   right: 1.9rem;
   background: url("https://www.ogdmart.com/attachments/shop_images/1596010638/Money_Plant_In_White_Pot.jpg");
-  background-size: cover;
+  background-size: contain;
 }
 .overlap3 {
   border: 1px solid var(--bg);
   position: relative;
   right: 3.9rem;
   background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvn-0xt6qvSxOLtEcjij2t3miK1IG7Lnd1IhvgwNa-xikhehxOnf44bxSlMLzccP0BAvU&usqp=CAU");
-  background-size: cover;
+  background-size: contain;
 }
 
 .master {
@@ -265,9 +299,4 @@
 .consult-text {
   font-size: 1.5rem;
   font-weight: 500;
-}
-
-::selection {
-  background-color:var(--ascent-secondary);
-  color: var(--bg);
 }
